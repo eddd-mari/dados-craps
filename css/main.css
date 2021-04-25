@@ -1,15 +1,19 @@
 body{
-	background-color: turquoise;
+	background-image:url(https://pbs.twimg.com/media/D6D8IU4XoAAQ9DF.jpg);
+	width:1024;
+  height:800;
 	}
+
 .dado{
 background-image:url(https://i.pinimg.com/originals/0b/61/ba/0b61ba096406865f0e76a9b07e36dc69.png);
 background-position:-803px;
 width:157px;
-height:156px;
+height:650px;
 }
 #contenedor_dados{
 display:flex; 
 width:315px;
+ height:400px;
 margin:0 auto;
 }
 
