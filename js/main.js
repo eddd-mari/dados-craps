@@ -4,6 +4,8 @@ var posiciones=[0,-160,-320,-481,-642,-803];
 var dado1,dado2,boton_tirar;
 var total_tiro;
 var turno = 1; 
+var punto;
+var punto_win;
 
 window.onload=init;
 
@@ -34,6 +36,7 @@ function jugar(){
 
 	total_tiro = tiro_1 + tiro_2;
 
+	punto = 4 || 5 || 6 || 8 || 9 || 10;
 	turno = turno +1;
 
 	if( total_tiro == 7 || total_tiro==11)
@@ -50,23 +53,23 @@ function jugar(){
 	  	turno = 1
 	  	console.log("se reinicio el turno");
 	  }
-     
-	  
 
-	  	if(total_tiro == 4 || total_tiro == 5 || total_tiro ==6 || total_tiro == 8 || total_tiro == 9 || total_tiro == 9 || total_tiro == 10 )
-	  	{
-	  		alert("PUNTO");
-	  	}
-	  	else
-	  	{
-	  		if(total_tiro == 7)
-	  		{
-	  			alert("Perdio partida");
-	  	     turno = 1
-	  	     console.log("se reinicio el turno");
-	  		}
-	  			
-	  	 }
+	  if(total_tiro == punto)
+	  {
+	  	punto == punto_win
+	  	alert("Este es tu punto ganadaror");
+	  	turno = 1
+	  }
+     
+     if(total_tiro == punto_win)
+     {
+     	alert("haz ganado")
+
+     }
+	  else
+	  {
+	  	if (total_tiro == 7)
+	  }
 
 }
 
