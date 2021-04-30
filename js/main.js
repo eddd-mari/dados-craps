@@ -36,15 +36,50 @@ function jugar(){
 
 	turno = turno +1;
 
-	if(total_tiro == 7 || total_tiro==11)
+	if( total_tiro == 7 || total_tiro==11)
 	{
 		alert("Gano la partida");
 
 		turno = 1;
 		console.log("Se reinicio el turno");
 	}
-	else
-	{
-		alert("Pierde partida");
-	}
-	}
+	
+	  if(total_tiro == 2 || total_tiro == 3 || total_tiro == 12)
+	  { 
+	  	alert("Perdio partida");
+	  	turno = 1
+	  	console.log("se reinicio el turno");
+	  }
+     
+	  
+
+	  	if(total_tiro == 4 || total_tiro == 5 || total_tiro ==6 || total_tiro == 8 || total_tiro == 9 || total_tiro == 9 || total_tiro == 10 )
+	  	{
+	  		alert("PUNTO");
+	  	}
+	  	else
+	  	{
+	  		if(total_tiro == 7)
+	  		{
+	  			alert("Perdio partida");
+	  	     turno = 1
+	  	     console.log("se reinicio el turno");
+	  		}
+	  			
+	  	 }
+
+}
+
+
+	
+	
+			
+
+
+		
+		 
+		
+			
+		
+
+	 
