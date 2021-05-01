@@ -1,7 +1,8 @@
 body{
 	background-image:url(https://pbs.twimg.com/media/D6D8IU4XoAAQ9DF.jpg);
-	width:1024;
-  height:800;
+	width:1366;
+  height:750;
+ background-size:contain;
 	}
 
 .dado{
@@ -12,8 +13,8 @@ height:650px;
 }
 #contenedor_dados{
 display:flex; 
-width:315px;
- height:400px;
+width:680px;
+height:650px;
 margin:0 auto;
 }
 
