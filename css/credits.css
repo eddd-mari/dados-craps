@@ -2,5 +2,9 @@ body{
   background-image:url(https://cypherbits.net/wp-content/uploads/2020/01/2-4.jpg);
   width:1666;
   height:850;
+<<<<<<< HEAD
   font:small-caps 200% cambria
+=======
+  color: white;
+>>>>>>> 2c139e287fb8431bbcb2b756bb8dbc83d8bd8c07
 }
