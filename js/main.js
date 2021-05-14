@@ -61,6 +61,7 @@ function jugar(){
 	 	{
 	 		punto = total_tiro;
 	 		console.log("punto es ", punto);
+	 		alert("Este es tu punto ganador");
 	 	}
 	 	if (total_tiro == punto && turno > 1)
 	 	{
