@@ -5,4 +5,5 @@ Este es un juego de dados en donde puede probar tu suerte sin nesesidad de parar
 # Creadores:
 
 -Eddy Mariana Niño
+
 -Emmanuel Echeverri
